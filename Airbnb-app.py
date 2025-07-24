@@ -34,14 +34,15 @@ feature_names = list(feature_means.keys())
 st.markdown("""
 **The features required for this model to make a prediction are:**
 
-- `neighbourhood`, `latitude`, `longitude`
-- `minimum_nights`, `number_of_reviews`, `reviews_per_month`
-- `calculated_host_listings_count`, `availability_365`
-- `number_of_reviews_ltm`, `last_review_missing`
-- `room_type_Entire home/apt`, `room_type_Hotel room`
-- `room_type_Private room`, `room_type_Shared room`
+- `Ward Number(neighborhood)`, `Latitude`, `Longitude`
+- `Minimum Number of Nights`, `Number of Reviews`, `Number of Reviews Per Month`
+- `Number of Host Listings`, `Availability In A Year (Number of Days)`
+- `number_of_reviews_ltm`, `Last Review Missing (Y/N)`
+- `Room Type: Entire home/apt (Y/N)`, `Room Type: Hotel Room (Y/N)`
+- `Room Type: Private Room (Y/N)`, `Room Type: Shared Room (Y/N)`
 
 *Please enter numeric values for each.*
+N.B: for (Y/N), use: 1-Yes; 0-No
 """)
 
 
