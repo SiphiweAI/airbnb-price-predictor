@@ -49,6 +49,20 @@ N.B: for (Y/N), use: 1-Yes; 0-No
 # In[ ]:
 
 
+cape_town_coords = {
+    "lat": -33.9249,
+    "lon": 18.4241}
+
+df = pd.DataFrame({
+    'lat': [cape_town_coords["lat"]],
+    'lon': [cape_town_coords["lon"]]})
+
+st.map(df, zoom=10) 
+
+
+# In[ ]:
+
+
 user_input = {}
 for feat in feature_names:
     val = st.text_input(f"{feat} (leave blank to use default: {round(feature_means[feat], 2)})")
