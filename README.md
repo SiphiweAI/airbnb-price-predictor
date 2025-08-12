@@ -64,8 +64,8 @@ streamlit run Airbnb-app.py
 
 Live App
 Check out the live version here:
-https://your-deployment-link.streamlit.app
-(Replace with your actual Streamlit Cloud URL)
+https://airbnb-price-predictor.streamlit.app
+
 
 Built With
 Streamlit
